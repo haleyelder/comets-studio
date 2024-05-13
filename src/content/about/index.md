@@ -1,23 +1,34 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "Hi, hello! "
 meta_title: "About"
-image: "/images/author.png"
+image: "/images/profile-picture.jpg"
 draft: false
 
 what_i_do:
   title: "What I Do"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
-  
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
-  
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
+  - title: "Code"
+    description: "Attempting!"
+
+  - title: "Crafting"
+    description: "Yeah, I can build that!"
+
+  - title: "Exploring"
+    description: "What's under this rock..."
 
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+Welcome to Comet's Studio. I'm Haley, crafty coder based in the Pacific Northwest of the United States. Welcome to my coding, crafting, and whatever else I want to jot down, blog!
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+### The code part...
+I began learning some basic coding markup skills back in university, but picked it up again years later after graduating. I was searching for some low cost resources, found the freeCodeCamp curriculum and became obsessed. I started out as a front end developer, getting a foundation in markup and JavaScript, but then grew into full stack projects incorporating Python and Django.
+
+### The crafty part...
+When I'm not coding, I like to sew, stitch, paint, and think up some DIY projects that may or may not happen. I've knit a variety of garments and blankets over the years, but recent made the switch to more embroidery and cross stitch projects.
+
+### The whatever else part...
+I've found some more hiking groups in my area and love to take photos on these adventures, so stay tuned! I've lived in this area my entire life, love it, and always finding new things to discover 🌲 🌊 🏔.
+
+Feel free to reach out on socials below,
+
+-- H

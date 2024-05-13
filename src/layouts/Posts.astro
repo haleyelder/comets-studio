@@ -3,31 +3,39 @@ import { Image } from "astro:assets";
 import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
-import { humanize,slugify } from "@/lib/utils/textConverter";
-import { BiCalendarEdit,BiCategoryAlt } from "react-icons/bi";
+import { humanize, slugify } from "@/lib/utils/textConverter";
+import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 const authors = await getSinglePage("authors");
 const { summary_length } = config.settings;
 const { className, posts, fluid } = Astro.props;
 ---
 
-<div class={`row gy-5 gx-4 ${className} ${posts.length == 1 ? "justify-center" : ""} `}>
+<div
+  class={`row gy-5 gx-4 ${className} ${posts.length == 1 ? "justify-center" : ""} `}
+>
   {
     posts.map((post: any, i: number) => (
-      <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
+      // <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
+      <div class={"col-12 sm:col-6"}>
         {post.data.image && (
-          <a href={`/${post.slug}`} class="rounded-lg block hover:text-primary overflow-hidden group">
+          <a
+            href={`/${post.slug}`}
+            class="rounded-lg block hover:text-primary overflow-hidden group"
+          >
             <Image
               class="group-hover:scale-[1.03] transition duration-300 w-full"
               src={post.data.image}
               alt={post.data.title}
-              width={i === 0 ? 925 : 445}
-              height={i === 0 ? 475 : 230}
+              // width={i === 0 ? 925 : 445}
+              // height={i === 0 ? 475 : 230}
+              width={445}
+              height={230}
             />
           </a>
         )}
         <ul class="mt-6 mb-4 flex flex-wrap items-center text-text">
-          <li class="mr-5">
-            {authors
+          {/* <li class="mr-5"> */}
+          {/* {authors
               .filter((author) =>
                 post.data.authors
                   .map((author: string) => slugify(author))
@@ -50,7 +58,7 @@ const { className, posts, fluid } = Astro.props;
                   <span>{author.data.title}</span>
                 </a>
               ))}
-          </li>
+          </li> */}
           <li class="mr-5 flex items-center flex-wrap font-medium">
             <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
             <>{dateFormat(post.data.date)}</>
@@ -65,7 +73,19 @@ const { className, posts, fluid } = Astro.props;
                       href={`/categories/${slugify(category)}`}
                       class="mr-2 hover:text-primary font-medium"
                     >
-                      {humanize(category)}{i !== post.data.categories.length - 1 && ","}
+                      {humanize(category)}
+                      {i !== post.data.categories.length - 1 && ","}
+                    </a>
+                  </li>
+                ))}
+
+                {post.data.tags.map((tag: string) => (
+                  <li class="inline-block">
+                    <a
+                      href={`/tags/${slugify(tag)}`}
+                      class="block rounded-lg bg-theme-light px-4 py-2 font-semibold text-dark text-sm hover:text-primary transition duration-300"
+                    >
+                      #{(tag)}
                     </a>
                   </li>
                 ))}
@@ -74,12 +94,21 @@ const { className, posts, fluid } = Astro.props;
           </li>
         </ul>
         <h3 class="mb-4">
-          <a href={`/${post.slug}`} class="block hover:text-primary transition duration-300">
+          <a
+            href={`/${post.slug}`}
+            class="block hover:text-primary transition duration-300"
+          >
             {post.data.title}
           </a>
         </h3>
         <p class="text-text">
-          {post.body?.slice(0, Number(i === 0 && fluid != false ? summary_length * 2 : summary_length))}...
+          {post.body?.slice(
+            0,
+            Number(
+              i === 0 && fluid != false ? summary_length * 2 : summary_length
+            )
+          )}
+          ...
         </p>
       </div>
     ))

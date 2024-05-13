@@ -1,18 +1,17 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "Comet's Studio",
+    "base_url": "https://comets-studio.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "logo_text": "Comet's Studio Blog"
   },
 
   "settings": {
-    "pagination": 5,
+    "pagination": 6,
     "summary_length": 100
   },
 
@@ -24,12 +23,6 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
-  },
-
-  "contactinfo": {
-    "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
-    "email": "info@bookworm.org",
-    "phone": "+800 567 1234"
+    "copyright": "Customized by Haley © 2024 | Theme by [Themefisher](https://themefisher.com)"
   }
 }
