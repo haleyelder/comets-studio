@@ -1,6 +1,5 @@
 ---
 title: "2022 Goals Recap, Looking to 2023"
-description: "Taking a look at 2022 goals and creating new ones for 2023!"
 date: 2023-01-01T12:00:00Z
 image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 categories: ["code"]

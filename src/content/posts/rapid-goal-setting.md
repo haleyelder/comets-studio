@@ -1,6 +1,5 @@
 ---
 title: "Rapid Goal Setting; Making Flexible Changes"
-description: "Revisiting yearly goals and the freedom to change them."
 date: 2022-05-01T12:00:00Z
 image: "https://images.unsplash.com/photo-1606242403117-4755198b9752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 categories: ["code"]

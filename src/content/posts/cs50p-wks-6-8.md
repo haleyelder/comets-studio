@@ -1,6 +1,5 @@
 ---
 title: "CS50P Weeks 6 - 8"
-description: "Recapping weeks 6 to 8 for Harvard's CS50P course (intro to programming with python)"
 date: 2022-11-11T12:00:00Z
 image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 categories: ["code"]
@@ -26,4 +25,3 @@ The very last problem was similar to a past image manipulation problem but with 
 With all problem sets complete, I’ve kept a notepad of possible final project ideas, and I think I’ve settled on one and started to plan an outline. There are not too many restrictions, so having it so open ended is tough to figure something out as well. Should have it all set by end of year like my estimate, stay tuned. 😀
 
 Nearing the finish line!
-

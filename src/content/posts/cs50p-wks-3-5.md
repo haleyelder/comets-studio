@@ -1,6 +1,5 @@
 ---
 title: "CS50P Weeks 3 - 5"
-description: "Recapping weeks 3 to 5 for Harvard's CS50P course (intro to programming with python)"
 date: 2022-05-31T12:00:00Z
 image: "https://images.unsplash.com/photo-1518349619113-03114f06ac3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 categories: ["code"]
