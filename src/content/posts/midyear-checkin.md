@@ -2,7 +2,7 @@
 title: "Midyear Check In"
 date: 2024-07-06T12:00:00Z
 image: "/images/posts/midyear-checkin/skaftafell-view-cover.jpg"
-categories: ["code"]
+categories: ["code","life","outdoors"]
 tags: ["goals","life"]
 draft: false
 ---
