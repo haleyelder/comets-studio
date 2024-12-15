@@ -7,7 +7,7 @@ tags: ["code","life","outdoors"]
 draft: false
 ---
 
-*Mt Hood from Trilllium Lake*
+*Mt Hood from Trillium Lake*
 
 Hello and goodbye to August! I'm conflicted with this month as I'm not a huge fan of heat and it's usually the hottest month of the year and when my school year would start. Not anymore, obviously, but it's still hot. At least with the nicer weather means more opportunities for fun outdoor things. July turned out to be a pretty busy work and life month, so the first couple weeks of August were spent untangling that stress and onto more funtimes.
 
