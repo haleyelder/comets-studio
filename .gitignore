@@ -30,3 +30,5 @@ node_modules
 .env
 tina
 admin
+
+monthly-temp.md
