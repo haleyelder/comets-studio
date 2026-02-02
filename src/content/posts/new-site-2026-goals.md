@@ -2,7 +2,7 @@
 title: "2026 Goals, New Site"
 date: 2026-02-01T12:00:00Z
 image: "/images/posts/new-site-2026-goals/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg"
-categories: [""]
+categories: ["goals"]
 tags: ["goals","life"]
 ---
 
